@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VARMA NANDI // PORTFOLIO
 
-## Getting Started
+> *"I bypass theoretical rhetoric through relentless praxis—I comprehend complex systems by engineering them from the ground up."*
 
-First, run the development server:
+An interactive, terminal-based developer portfolio built to reflect a "learn-by-doing" engineering philosophy. It combines a custom command-line interface with a physics-driven 3D interactive badge.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚡ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Custom Terminal Emulator:** Fully functional CLI with command history, `Tab` autocomplete, and `Up`/`Down` arrow navigation.
+* **Authentic Streaming Output:** Custom typewriter effect with a 1Hz binary step-blinking cursor, mimicking classic UNIX terminals.
+* **Interactive 3D ID Card:** A draggable, tiltable 3D physical badge with realistic rope physics and inertia.
+* **Dynamic Markdown Parsing:** Real-time conversion of markdown-style links `[text](url)` into clickable anchors during the typewriter stream.
+* **Data Engineering Focus:** Minimalist, grounded copy focused on transforming raw complexity into reliable architecture.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Core:** Next.js (App Router), React, TypeScript
+* **3D & Physics:** Three.js, React Three Fiber (@react-three/fiber), Rapier WASM (@react-three/rapier), Drei
+* **Styling:** Tailwind CSS
 
-## Learn More
+## ⚙️ Local Development
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/Varma-N/portfolio-v2.git
+   \`\`\`
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+3. Start the development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📡 Systems Status
+*SYS_ONLINE // RELENTLESS DRIVE // BUILT BY DOING*
