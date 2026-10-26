@@ -21,17 +21,17 @@ An interactive, terminal-based developer portfolio built to reflect a "learn-by-
 ## ⚙️ Local Development
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/Varma-N/portfolio-v2.git
-   \`\`\`
+   ```bash
+   git clone https://github.com/Varma-N/terminal-portfolio.git
+   ```
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 3. Start the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📡 Systems Status
